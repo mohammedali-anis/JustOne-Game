@@ -1,0 +1,71 @@
+body{
+    background-color: #F5CBA7;
+    background-image: url('JustOne.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.gameUI{
+    background: #7e7272aa;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding: 8px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+.menuGameRule {
+    background: border-box;
+    font-style: italic;
+    font-size: larger;
+    vertical-align: bottom;
+    padding: 8px;
+    margin-inline: 15px;
+    background: #9bc38d;
+}
+.b2 {
+    background: border-box;
+    font-style: italic;
+    font-size: larger;
+    vertical-align: bottom;
+    padding: 8px;
+    margin-inline: 15px;
+    background: #757f9a;
+}
+.b3 {
+    background: border-box;
+    font-style: italic;
+    font-size: larger;
+    vertical-align: bottom;
+    padding: 8px;
+    margin-inline: 15px;
+    background: #cc99ff;
+}
+.b4 {
+    background: border-box;
+    font-style: italic;
+    font-size: larger;
+    vertical-align: bottom;
+    padding: 8px;
+    margin-inline: 15px;
+    background:  #666633;
+}
+.b5 {
+    background: border-box;
+    font-style: italic;
+    font-size: larger;
+    vertical-align: bottom;
+    padding: 8px;
+    margin-inline: 15px;
+    background: #cc6666;
+}
+#hintConfirm{
+	visibility:hidden;
+}
+#guessConfirm{
+	visibility:hidden;
+}

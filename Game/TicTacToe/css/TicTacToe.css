@@ -1,0 +1,43 @@
+#grid{
+		background-image: url("/TicTacToe/images/grid.png");
+		width:491px;
+		height:499px;
+		border-right : solid;
+		border-bottom : solid;
+		border-color : black;
+	}
+#TicTacToe{
+		max-width: 800px;
+		max-height: 600px;
+	}
+
+#Game{
+		min-height:590px;
+		min-width:800px;
+		width: 100%;
+	}
+#Player{
+		background-color: yellow;
+		margin-top :25px;
+		height : 37px;
+		width : 589px;
+		border-style : solid;
+		border-color : black;
+		color : black;
+	}
+#restartButton{
+	height : 39px;
+	width : 90px;
+	position : absolute;
+	left : 413px;
+	top : 538px;
+	visibility:hidden;
+}
+#closeButton{
+	height : 39px;
+	width : 90px;
+	position : absolute;
+	left : 513px;
+	top : 538px;
+	visibility:hidden;
+}

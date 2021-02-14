@@ -1,0 +1,98 @@
+body {
+	background:	url(/img/bg.jpg);
+	height:100%;
+}
+#head{
+	background:	url(/img/head_gr.jpg);
+	position:absolute;
+	height:100px;
+	width:2000px;
+	z-index:2;
+}
+#top1{
+	position:absolute; 
+	left:18%; 
+	height:100px;
+	width:800px;
+	color:#58ACFA;
+	/*border:1px solid #819FF7;*/
+	/*display:inline;*/
+}
+#login {
+	position:absolute; 
+	left:110px;
+	top:35px;
+	height:30px;
+	width:600px;
+	display:inline;
+	font-family:Verdana;
+	text-align:left;
+	z-index:3;
+}
+#logo{
+	background:	url(/img/logo.png);
+	position:absolute; 
+	left:0px;
+	height:100px;
+	width:100px;
+	z-index:3;
+}
+
+
+#feedback{
+	background-color:#BDBDBD;
+	position:absolute; 
+	left:0px; 
+	height:30px;
+	top:10px;
+	width:790px;
+	color:green;
+	border:1px solid black;
+}
+
+
+#content{
+	opacity:1;
+	position:absolute; 
+	min-height:50%;	
+	width:790px;
+	color:#FFFFFF; 
+	padding-left:10px;
+	padding-right:-10px;
+	padding-top:10px;
+	text-align:left;
+	left:18%;
+	top:140px;
+	z-index:2;
+}
+#list{
+	list-style-type:none; 
+	float:left; 
+	display:inline-block;
+	margin-top: 6px;
+	margin-left: 5px;
+}
+#serverVersion{
+	text-align:center;
+	margin: 2px;
+}
+a:link{ 
+	font-weight:bold; 
+	color:white; 
+	text-decoration:none; 
+}
+a:visited { 
+	font-weight:bold; 
+	color:white; 
+	text-decoration:none; 
+}
+a:hover { 
+	font-weight:bold; 
+	color:#819FF7; 
+	text-decoration:cursive; 
+}
+a:active { 
+	font-weight:bold; 
+	color:grey; 
+	text-decoration:underline; 
+}

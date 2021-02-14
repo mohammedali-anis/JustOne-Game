@@ -1,0 +1,59 @@
+<head>
+	<title>JUST ONE</title>
+	<link rel="stylesheet" type="text/css" href="css/design.css">
+</head>
+
+
+
+<div id="JustOne">
+	<div id="Game" style="color:black" ><h2>
+			Geben Sie ihren Hinweis zu dem folgenden Wort ein: </h2>
+			<span id="hintSpan">  </span> <br>
+			<input id="hintOwnHint"><br>
+			<button onclick="confirmHint();" id="hintConfirm">Hinweis bestaetigen</button>
+		<br>
+		<div id="guess">
+			Hinweis Nr. <output id="guessNamePlayerOne">1</output>: 
+			<span id="myspan1">  </span> <br>
+			
+			Hinweis Nr. <output id="guessNamePlayerTwo">2</output>: 
+			<span id="myspan2"> </span> <br>
+	
+			Hinweis Nr. <output id="guessNamePlayerThree">3</output>: 
+			<span id="myspan3"> </span> <br>
+	
+			Hinweis Nr. <output id="guessNamePlayerFour">4</output>: 
+			<span id="myspan4"> </span> <br>
+	
+			Hinweis Nr. <output id="guessNamePlayerFive">5</output>: 
+			<span id="myspan5"> </span> <br>
+	
+			Hinweis Nr. <output id="guessNamePlayerSix">6</output>: 
+			<span id="myspan6"> </span> <br>
+	
+			
+			
+			Ihr Loesung:
+			<input id="guessOwnGuess"><br>
+			<button onclick="sendGuess();" id="guessConfirm">Guess bestaetigen</button>
+		</div>
+		<div id="information">
+			<span id="guessResult"> </span> 
+		<h3 style="color:black">Runde: </h3><h3 style="color:red"><span id="currentRound"> </span></h3> 
+		<h3 style="color:black">Siege: </h3><h3 style="color:red"><span id="winStatus"> </span></h3>
+		</div>
+	</div>
+	
+	<div class="menu">
+			<a href="https://justone-the-game.com/files/rules/JustOne-Rules-DE.pdf"><button class="menuGameRule">Spielregeln</button></a>
+			<a href="https://justone-the-game.com/just-one-jeu-game.php?lang=de"><button class="b2">Teste das Spiel</button></a>
+			<button onclick="startGame();" id="startButton" class="b3"> Spiel Starten</button>
+			<button id="restartButton" type="button" onclick="restart();" class="b4"> Neustarten</button>
+			<button id="closeButton" type="button" onclick="closeGame();" class="b5"> Beenden </button>
+	</div>
+</div>
+<br><br>
+<center>
+<h2 style="color:black"><u>Result : </u></h2>
+<h1 id="msg" style="color:brown"><u> </u></h1>
+</center>
