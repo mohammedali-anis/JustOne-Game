@@ -1,0 +1,80 @@
+<head>
+	<title>JUST ONE</title>
+	<link rel="stylesheet" type="text/css" href="css/design.css">
+</head>
+<body>
+	<div id="JustOne">
+
+		<div id="Game" class="gameUI">
+			<div id="gameBackground" class="gameBackground">
+				<div id="hint">
+					Geben Sie ihren Hinweis zu dem folgenden Wort ein: <span id="hintSpan"></span> <br>
+					<input id="hintOwnHint" class="input"><br>
+					<button id="hintConfirm" class="confirmButton" onclick="confirmHint();">Hinweis bestaetigen</button>
+					<br>
+				</div>
+
+				<div id="hintShow" class="hints">
+					<br>
+					Hinweis Nr. 1: <span id="myspan1"> </span> <br>
+
+					Hinweis Nr. 2: <span id="myspan2"> </span> <br>
+				
+					Hinweis Nr. 3: <span id="myspan3"> </span> <br>
+				
+					Hinweis Nr. 4: <span id="myspan4"> </span> <br>
+				
+					Hinweis Nr. 5: <span id="myspan5"> </span> <br>
+				
+					Hinweis Nr. 6: <span id="myspan6"> </span> <br>
+					<br>
+				</div>
+
+				<div id="guess">
+					Ihr Loesung: <input id="guessOwnGuess" class="input"><br>
+					<button id="guessConfirm" class="confirmButton" onclick="confirmGuess();">Guess bestaetigen</button>
+				</div>
+
+				<br>
+				<span id="gameOverText"> Das Spiel ist vorbei. Ihr Ergebnis:</span> <br>
+				<span id="guessResult"> </span>
+				<br>
+
+				<div id="information" class="hints">
+					Rolle: <span id="role"> -</span> <br>
+					Runde: <span id="currentRound"> -</span> <br>
+					Richtige Antworten: <span id="winStatus"> -</span> <br>
+				</div>
+			</div>
+
+			<div id="playerMenu" class="menu">
+				<button id="nextRoundButton" class="menuButton" type="button" onclick="nextRound();">Weiter</button>
+				<a href="https://justone-the-game.com/files/rules/JustOne-Rules-DE.pdf" target="_blank" rel="noopener noreferrer"><button class="menuButton">Spielregeln</button></a>
+			</div>
+
+			<div id="hostMenu" class="menu">
+				<span id="customWordTutorial" class="gameBackground customWords"> Custom Woerter, jedes Wort mit ';' bestaetigen</span> <br> <br>
+				<input id="customWords">
+				<br> <br>
+				<button id="startButton" class="menuButton" type="button" onclick="startGame();" > Spiel Starten</button>
+				<button id="restartButton" class="menuButton" type="button" onclick="restart();"> Neues Spiel</button>
+				<button id="closeButton" class="menuButton" type="button" onclick="closeGame();"> Beenden </button>
+				<br>
+				
+			</div>
+
+		</div>
+
+		<div id="playerList" class="playerlist">
+			MITSPIELER<br>
+			<span id="player1"> - </span> <br>
+			<span id="player2"> - </span> <br>
+			<span id="player3"> - </span> <br>
+			<span id="player4"> - </span> <br>
+			<span id="player5"> - </span> <br>
+			<span id="player6"> - </span> <br>
+			<span id="player7"> - </span> <br>
+		</div>
+		
+	</div>
+</body>

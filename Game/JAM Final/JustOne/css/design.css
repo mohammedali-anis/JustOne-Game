@@ -1,0 +1,82 @@
+body{
+    background-image: url('JustOneLogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.gameUI{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    float: left;
+}
+.gameBackground{
+    background: #727272dd;
+}
+
+.playerlist{
+    background: #727272dd;
+    width: max-content;
+    height: max-content;
+    padding: 8px;
+    float: left;
+    text-align: center;
+    margin-left: 32px;
+}
+
+.hints{
+    text-align: start;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.menuButton {
+    background: border-box;
+    font-style: italic;
+    font-size: larger;
+    vertical-align: bottom;
+    padding: 8px;
+    margin-inline: 15px;
+    background: #9bc38d;
+}
+
+.confirmButton {
+    background: #AAAAAA;
+}
+
+.customWords{
+    padding: 8px;
+    margin: 8px;
+}
+
+#hint{
+    visibility: hidden;
+}
+
+#guess{
+    visibility: hidden;
+}
+
+#gameOverText{
+    visibility: hidden;
+}
+
+#nextRoundButton{
+    visibility: hidden;
+}
+
+#restartButton{
+    visibility: hidden;
+}
+
+#hintShow{
+    visibility: hidden;
+}
+
+#hostMenu{
+    visibility: hidden;
+}

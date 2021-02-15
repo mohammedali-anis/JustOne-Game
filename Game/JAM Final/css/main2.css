@@ -37,8 +37,17 @@ body {
 	width:100px;
 	z-index:3;
 }
-
-
+#menu{
+	position:absolute; 
+	left:18%; 
+	height:35px;
+	top:110px;
+	width:800px;
+	color:#58ACFA;
+	text-align:left;
+	Font-family:serif;
+	z-index:2;
+}
 #feedback{
 	background-color:#BDBDBD;
 	position:absolute; 
@@ -49,8 +58,16 @@ body {
 	color:green;
 	border:1px solid black;
 }
-
-
+#main{
+	background-color:#000000;
+	opacity:0.2;
+	position:absolute; 	
+	height:1000px;
+	width:790px;
+	left:18%;
+	top:100px;
+	z-index:1;
+}
 #content{
 	opacity:1;
 	position:absolute; 
